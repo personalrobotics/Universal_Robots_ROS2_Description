@@ -51,6 +51,7 @@ from ament_index_python.packages import get_package_share_directory
         "ur16e",
         "ur8long",
         "ur15",
+        "ur18",
         "ur20",
         "ur30",
     ],
@@ -94,7 +95,7 @@ def test_ur_urdf_xacro(ur_type, description_file, prefix):
         get_package_share_directory(description_package), "urdf", description_file
     )
 
-    (_, tmp_urdf_output_file) = tempfile.mkstemp(suffix=".urdf")
+    _, tmp_urdf_output_file = tempfile.mkstemp(suffix=".urdf")
 
     # Compose `xacro` and `check_urdf` command
     xacro_command = (

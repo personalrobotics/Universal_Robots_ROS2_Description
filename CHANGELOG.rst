@@ -2,6 +2,43 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.11.0 (2026-05-13)
+-------------------
+* Add Lyrical to README and ci_builds page (backport `#401 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/401>`_) (`#402 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/402>`_)
+* Add Payload state interfaces (`#399 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/399>`_)
+* Contributors: Felix Exner, mergify[bot]
+
+2.10.1 (2026-05-06)
+-------------------
+* Correct offsets of wrist3 meshes (backport `#393 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/393>`_) (`#394 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/394>`_)
+* Contributors: mergify[bot]
+
+2.10.0 (2026-04-08)
+-------------------
+* Add GPIO entry for friction model (`#391 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/391>`_)
+* Add XML launchfile (backport `#382 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/382>`_) (`#383 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/383>`_)
+* Contributors: Felix Exner, mergify[bot]
+
+2.9.0 (2025-12-01)
+------------------
+* Replace argument replacements with properties (`#368 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/368>`_)
+* Do not add effort command interface for GZ sim (`#355 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/355>`_)
+* Add effort command interface to all joints (`#350 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/350>`_)
+* Contributors: Felix Exner, mergify[bot]
+
+2.8.0 (2025-10-10)
+------------------
+* Add an initial value for the major_version state interface (`#343 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/343>`_)
+  This can be used in mock hardware tests
+* Add support for UR18 (`#342 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/342>`_)
+* Contributors: Felix Exner
+
+2.7.1 (2025-10-01)
+------------------
+* Update ur7e physical parameters to match ur5e (backport `#333 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/333>`_) (`#334 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/334>`_)
+* Auto-update pre-commit hooks (backport `#329 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/329>`_) (`#330 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/330>`_)
+* Contributors: mergify[bot]
+
 2.7.0 (2025-09-15)
 ------------------
 * Add support for UR8 Long (`#321 <https://github.com/UniversalRobots/Universal_Robots_ROS2_Description/issues/321>`_)
@@ -193,7 +230,7 @@ Changelog for package ur_description
 
 1.2.1 (2018-01-06)
 ------------------
-* Merge pull request `#329 <https://github.com//ros-industrial/universal_robot/issues/329>`_ from tecnalia-medical-robotics/joint_limits
+* Merge pull request `ros1#329 <https://github.com//ros-industrial/universal_robot/issues/329>`_ from tecnalia-medical-robotics/joint_limits
   Homogenize xacro macro arguments.
 * Merge pull request `#332 <https://github.com//ros-industrial/universal_robot/issues/332>`_ from davetcoleman/kinetic_hw_iface_warning
   Remove UR3 ROS Control Hardware Interface warning
